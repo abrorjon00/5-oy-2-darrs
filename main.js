@@ -27,11 +27,32 @@
 // console.log(addrepla(str));
 
 
+// 5-misol
+    // function replaceadd(arg, str, str2) {
+    //         return arg.split(str).join(str2);
+    // }
+    // let arr = "salom abror qalesan yaxshimisan.";
+    // let res = replaceadd(arr, "a", "o");
+    // console.log(res); 
+
+
 // 6-misol
 // function Hisoblash(arg) {
 //     return arg.length
 // }
 // console.log(Hisoblash("salom"));
+
+// 7-misol
+// function addPalindrome(arg) {
+//     let res = arg.toLowerCase().replace(/[^a-z0-9]/g, '');
+//     let sum = res.split('').reverse().join('');
+//     return res === sum;
+// }
+// let matn1 = "Anna";
+// let matn2 = "Salom dunyo";
+// console.log(addPalindrome(matn1)); 
+// console.log(addPalindrome(matn2)); 
+
 
 
 // 8-misol
@@ -40,6 +61,15 @@
 //     .join(' ')
 // }
 // console.log(reveresstr("salom abror"));
+
+// 9-misol
+// function repeatadddelete(arg) {
+//     return [...new Set(arg.split(' '))].join(' ');
+// }
+
+// let sum  = "salom abror abror qalesan qalesan";
+// let result = repeatadddelete(sum);
+// console.log(result); 
 
 
 // 10-misol
@@ -168,3 +198,4 @@
 // ];
 
 // console.log(addcoun(objs, "city"));
+
