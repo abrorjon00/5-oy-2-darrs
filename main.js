@@ -5,6 +5,20 @@
 // console.log(ReveresAdd("salom"));
 
 
+// 2-misol
+// let str = "lorem ipsum dolor sit amet"
+// let res = str.split(' ')
+// let first = res[0]
+// let last = res.at(-1)
+
+// res.pop()
+// res.shift()
+// res.push(first)
+// res.unshift(last)
+// let result = res.join(' ')
+// console.log(result);
+
+
 // 3-misol
 // function counterBoshHarf(arg) {
 //     let res = 0; 
